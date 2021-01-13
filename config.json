@@ -1,0 +1,46 @@
+{
+    "github": {
+        "token": ""
+    },
+    "template": {
+        "folder_path": "D:/projects/tools/createProject/templates/",
+        "templates": {
+            "sass": {
+                "location": "sass.tar.xz",
+                "cmd": []
+            },
+            "css": {
+                "location": "css.tar.xz",
+                "cmd": []
+            },
+            "react": {
+                "location": "react.tar.xz",
+                "cmd": [
+                    "npm install"
+                ]
+            },
+            "express": {
+                "location": "express.tar.xz",
+                "cmd": [
+                    "npm install"
+                ]
+            },
+            "test": {
+                "location": "test.tar.xz",
+                "cmd": [
+                    "test1",
+                    "test2"
+                ]
+            }
+        }
+    },
+    "editors": {
+        "vscode": "code {}",
+        "code": "code {}"
+    },
+    "test": {
+        "1": {
+            "lol": "test"
+        }
+    }
+}
